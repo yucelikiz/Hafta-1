@@ -22,7 +22,7 @@ public class Ticket {
             System.out.print("Hatalı veri girdiniz!");
         }
 
-        //Ücreti hesapla
+        //Tek yön ücreti hesapla
         else if (tripType==1){
             if (age<12){
                 charge =range*0.10;
@@ -42,6 +42,7 @@ public class Ticket {
 
             }
             System.out.print("Toplam Tutar : "+total);
+        //Gidiş-Dönüş ücreti hesapla
         } else if (tripType==2) {
             if (age<12){
                 charge =range*0.10;
