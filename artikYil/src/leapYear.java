@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class leapYeaar {
+public class leapYear {
     public static void main(String[] args) {
 
         //Değişken
