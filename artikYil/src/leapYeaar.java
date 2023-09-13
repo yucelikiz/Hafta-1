@@ -1,6 +1,6 @@
 import java.util.Scanner;
-public class leapYear {
-    public static void main(String[] args){
+public class leapYeaar {
+    public static void main(String[] args) {
 
         //Değişken
         int year;
@@ -17,6 +17,5 @@ public class leapYear {
         }else {
             System.out.print(year+" bir artık yıl değildir!");
         }
-
     }
 }
