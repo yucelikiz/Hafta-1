@@ -14,9 +14,13 @@ public class Main {
         System.out.print("Sayiyi giriniz : ");
         n = scan.nextInt();
 
+        //Harmonik sayıyı hesaplagit
         for (double i=1; i<=n; i++){
              result += (1/i);
         }
+        String resultStr = String.valueOf(result);
+        resultStr = resultStr.substring(0,5);
+
         System.out.print("Sonuç : "+result);
     }
 }
