@@ -1,0 +1,1 @@
+#Asal sayıları bulan program
